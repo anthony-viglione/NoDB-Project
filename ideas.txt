@@ -1,0 +1,35 @@
+https://lms.devmountain.com/courses/3/assignments/81?module_item_id=1836
+
+1 stateful component not including app.js 4pts      =>      app.js doesn't need to be stateful, so you can just return a stateful component like Main in the app.js render method.
+
+1 stateless functional component          4pts      =>      you can pass props to a component and then just manipulate them without using state. 
+                                                        ie have a comopnent that does the map of an array and render that component in the Main component.
+
+1 GET endpoing in express.                4pts      =>      const express =require('express');      Require express and save as a variable
+                                                        const app = express();                  Saves an instance of express's invocation as a variable
+                                                        app.get('ENDPOINT-URL',CONTROLLER-NAME.METHOD-NAME-ON-CONTROLLER);  Makes use of the get method on the saved instance of express.
+
+One endpoint that uses req.body           4pts      =>      Endpoints are the server-side or back-end. So this means that the endpoint must use data sent to it from the front end.
+
+
+
+Two additional components                 4pts      =>      Could be stateless or stateful.
+
+Use a single component more than once     2-4pts    =>      Have a component that renders in more than one place on screen.
+
+
+
+
+Reading App.
+Books read | Books to read.
+
+Books=
+[
+Book=
+{
+Title,
+Author,
+Thoughts,
+Read: T/F
+}
+]
